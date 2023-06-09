@@ -2,23 +2,23 @@
 - degree: Doctoral studies
   uni: Universidad de Jaén (Spain)
   year: ongoing
-  awards: false
-  summary: false
+  # awards: false
+  # summary: false
 
 - degree: Certificate in Programming for Digital Humanities 
   uni: UNED (Spain)
   year: 2022
-  award: false
-  summary: false
+  # award: false
+  # summary: false
 
 - degree: Online Master in English Studies
   uni: Universidad de Jaén (Spain)
   year: 2019
-  award: false
-  summary: false
+  # award: false
+  # summary: false
 
 - degree: Degree in English Studies
   uni: Universidad de Jaén (Spain)
   year: 2018
-  award: false
-  summary: false
+  # award: false
+  # summary: false
