@@ -166,8 +166,8 @@
 
         {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemprop="memberOf">
-          <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ publication.type }} &bull; {{ publication.year }}</h4>
+          <h4 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h5 class="resume-item-details" itemprop="description">{{ publication.type }} &bull; {{ publication.year }}</h4>
           <p class="resume-item-copy">{{ publication.abstract }}</p>
         </div>
         {% endfor %}
