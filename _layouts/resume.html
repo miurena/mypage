@@ -155,19 +155,19 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
+      {% if site.resume_section_publications %}
       <!-- begin Associations -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Publications</h2>
         </header>
 
-        {% for association in site.data.associations %}
+        {% for association in site.data.publications %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}">{{ publications.title }}</a>{% else %}{{ publications.title }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publications.type }} &bull; {{ publications.year }}</h4>
+          <p class="resume-item-copy">{{ publications.abstract }}</p>
         </div>
         {% endfor %}
 
