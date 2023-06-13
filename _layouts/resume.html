@@ -164,7 +164,7 @@
           <h2>Publications</h2>
         </header>
 
-        {% for association in site.data.publications %}
+        {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="https://www.ujaen.es/">
           <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}">{{ publications.title }}</a>{% else %}{{ publications.title }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ publications.type }} &bull; {{ publications.year }}</h4>
