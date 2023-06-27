@@ -37,7 +37,8 @@ resume_looking_for_work:        "yes"
 resume_section_education:       true
 # publications was Associations before
 resume_section_publications:    true
-#resume_section_projects:        false
+#conferences was projects before
+resume_section_conferences:        true
 # resume_section_skills:          false
 # resume_section_recognition:     false
 # resume_section_links:           false
