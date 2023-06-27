@@ -97,27 +97,6 @@
       <!-- end Education -->
       {% endif %}
 
-
-      {% if site.resume_section_conferences %}
-      <!-- begin Conferences (this was projects before) -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
-
-        {% for paper in site.data.conferences %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if paper.url %}<a href="{{ project.url }}" itemprop="url">{{ paper.conference }}</a>{% else %}{{ paper.conference }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ paper.title }}  &bull; {{ paper.date }}</h4>
-          <p class="resume-item-copy">{{ paper.place }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Projects -->
-      {% endif %}
-
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
@@ -176,12 +155,32 @@
       <!-- end Associations -->
       {% endif %}
 
+      {% if site.resume_section_conferences %}
+      <!-- begin Conferences (this was projects before) -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        {% for paper in site.data.conferences %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if paper.url %}<a href="{{ project.url }}" itemprop="url">{{ paper.conference }}</a>{% else %}{{ paper.conference }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ paper.title }}  &bull; {{ paper.date }}</h4>
+          <p class="resume-item-copy">{{ paper.place }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
+
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Interests</h2>
+          <h2>Research Interests</h2>
         </header>
 
         <div class="resume-item">
