@@ -9,8 +9,23 @@
 #  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
 # Springfield Community Outreach Group
+
+- conference: USSE 25 “Ageing, Intergenerational Relationships and Utopia”
+  title: Unveiling the Spanish reality in Utopia de Thomas Moro, the 1637 translation of Utopia
+  date: July 2-4 2025
+  # url: "#"
+  place: Universitat de València
+
+- conference: VI Congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas (HDH 2023)
+  title: Un caso de estudio de modelado de datos. Tres alternativas para una edición digital de una traducción de Utopia
+  date: October 18-20 2023
+  # url: "#"
+  place: Universidad Internacional de La Rioja (UNIR)
+
 - conference: Greater Boston Digital Research & Pedagogy Symposium
   title: The decision-making process of encoding a Spanish translation of Thomas More's Utopia
   date: April 28 2023
   # url: "#"
   place: Massachussets Institute of Technology (MIT) 
+
+
