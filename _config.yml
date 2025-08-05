@@ -11,19 +11,19 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Inma Urena"
-resume_title:                   "PhD candidate"
+resume_title:                   "PhD, Lecturer at Universidad de Jaén"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "miurena[at]ujaen.es"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "-"
-resume_contact_address:         "D2-251, Campus Las Lagunillas s/n, Jaén, Spain"
+resume_contact_address:         "D2-208, Campus Las Lagunillas s/n, Jaén, Spain"
 
-resume_header_contact_info:     "D2-251, Campus Las Lagunillas s/n, Jaén, Spain • miurena[at]ujaen.es"
+resume_header_contact_info:     "D2-208, Campus Las Lagunillas s/n, Jaén, Spain • miurena[at]ujaen.es"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Inmaculada Ureña Asensio is a PhD candidate at the University of Jaén (Spain) working in the fields of Thomas More Studies and Digital Humanities. For her thesis dissertation, she is encoding with TEI the Spanish translation of Thomas More’s <em>Utopia</em> rendered by Gerónimo de Medinilla in 1637.</p>"
+resume_header_intro: "<p>Inmaculada Ureña Asensio (PhD, 2025) is Lecturer in English at the University of Jaén (Spain) working in the fields of Thomas More Studies and Digital Humanities. For her thesis dissertation, she developed the project [http://utopiadethomasmoro-digitaledition.com/] (A Digital Scholarly Edition of Utopia de Thomas Moro (1637)) encoded with TEI the Spanish translation of Thomas More’s <em>Utopia</em>. In 2023, she was PhD visiting research at Northeastern University (Boston, USA).</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
