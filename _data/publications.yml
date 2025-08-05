@@ -1,5 +1,19 @@
 #publication
-- title: "Recommended reading for good governors: Utopia de Thomas Moro (1637)"
+- title: Trabajando con ChatGPT para el etiquetado de textos con TEI. Un caso de estudio
+  type: Book chapter
+  year: pending
+  #url: http://www.sederi.org/s33/sederi-yearbook-33-4/
+  #abstract: "" 
+
+#publication
+- title: Digital Humanities and Thomas More Studies. States and challenges
+  type: Book chapter
+  year: 2024
+  url: https://puv.uv.es/libro/thomas-more-and-spain.html
+  #abstract: "" 
+
+#publication
+- title: Recommended reading for good governors: Utopia de Thomas Moro (1637)
   type: Article
   year: 2023
   url: http://www.sederi.org/s33/sederi-yearbook-33-4/
@@ -11,7 +25,6 @@
   year: 2021
   url: https://revistaselectronicas.ujaen.es/index.php/grove/article/view/5794/6308
   abstract: "Ramón Esquerra i Clivillés (1909-1938), a Spanish intellectual born and raised in Barcelona, published in 1937 Utopia (El Estado Perfecto), a translation of Utopia (1516) by Thomas More. The translator prepared a large prologue in which he minutely details the life and personality of the humanist and introduces Utopia and its reception in Spain. As a result, this illuminating introductory section becomes a brief piece of literary criticism. The way More is presented and how Esquerra emphasizes some of his most personal features creates a particular image of the humanist: that of a saint. The information shown was carefully chosen by the translator, serving from of More’s latest published biographies to construct a useful context for the reader." 
-
 
 
 
